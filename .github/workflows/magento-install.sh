@@ -72,7 +72,4 @@ for i in {1..60}; do
   echo -n "."
   sleep 1
 done
-
 test $result -eq 0 && echo "Not available" && cat /tmp/php-server.log && exit 1
-exit 0
-
